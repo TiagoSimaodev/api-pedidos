@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ItemPedido {
-// test
+// teste final
 	private UUID id = UUID.randomUUID();
 	private Produto produto;
 	private Integer quantidade;
