@@ -115,7 +115,7 @@ Francisco Tiago Rodrigues Simão
 Desenvolvedor Java Full Stack | Spring Boot | Microservices
 
 
-📧 tiagosimao.dev@gmail.com
+📧 E-mail:  tiagosimao.dev@gmail.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/tiagosimaodev/
 
