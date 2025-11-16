@@ -22,7 +22,7 @@ OpenAPI 3 / Swagger
 
 Maven
 
-🏗️ Arquitetura do Projeto
+🏗️ ARQUITETURA DO PROJETO:
 
 A API segue uma arquitetura orientada a eventos:
 
@@ -40,9 +40,9 @@ Enviado para o exchange fanout
 
 Consumido por outros microserviços
 
-Como rodar o RabbitMQ com Docker: 
+#COMO RODAR O RABBITMQ COM DOCKER:
 
-Execute: 
+EXECUTE: 
 
 docker compose up -d
 
@@ -52,7 +52,7 @@ http://localhost:15672
 user: rabbitmq
 password: rabbitmq
 
-🔧 Configuração AMQP
+🔧 CONFIGURAÇAO AMQP:
 
 A API utiliza:
 
@@ -64,7 +64,7 @@ Jackson2JsonMessageConverter para serialização
 
 RabbitAdmin para inicializar automaticamente as filas e exchange
 
-📚 Documentação da API (Swagger) 
+📚 DOCUMENTAÇÃO DA API (SWAGGER)
 
 Após iniciar a aplicação, acesse: 
 
@@ -81,13 +81,13 @@ Exemplos de requisição
 Códigos de resposta
 
 
-📥 Endpoint Principal
+📥 ENDPOINT PRINCIPAL:
 POST /api/pedidos
 
 Envia um pedido para o RabbitMQ.
 
 
-📤 Fluxo de Envio
+📤 FLUXO DE ENVIO:
 
 O controller recebe o pedido
 
@@ -98,7 +98,7 @@ O service envia para o exchange fanout via RabbitTemplate
 Microserviços inscritos nas filas recebem a mensagem automaticamente
 
 
-✔️ Objetivo do Projeto
+✔️ OBJETIVO DO PROJETO:
 
 Consolidar conhecimentos práticos de mensageria
 
@@ -109,7 +109,7 @@ Utilizar RabbitMQ e Docker em um fluxo real
 Criar base para um sistema completo de microserviços
 
 
-🧑‍💻 Autor
+🧑‍💻 AUTOR
 
 Francisco Tiago Rodrigues Simão
 Desenvolvedor Java Full Stack | Spring Boot | Microservices
