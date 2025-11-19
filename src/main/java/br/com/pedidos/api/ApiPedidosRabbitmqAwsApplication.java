@@ -10,4 +10,4 @@ public class ApiPedidosRabbitmqAwsApplication {
 		SpringApplication.run(ApiPedidosRabbitmqAwsApplication.class, args);
 	}
 
-}
+} 
